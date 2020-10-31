@@ -7,6 +7,46 @@ body {
   background: #373434;
 
 }
+@media (max-width:365px){
+  .mediaa{
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .mediaa h3{
+    font-size: 17px;
+  }
+  .mediaa h4 {
+    font-size: 15px;
+  }
+  .mediaa h1{
+    font-size: 10px;
+  }
+  .mediaa .intro{
+    width: 210px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-size: cover;
+    
+  }
+  .mediaa .main{
+    margin-top: 0px;
+  }
+  .mediaa .sec2{
+    margin-top: -50px;
+  }
+  .mediaa .sec2 .content .grid .div1 p {
+    font-size: 0.6rem;
+  }
+  .mediaa .main .os{
+    margin-bottom: 20px;
+  }
+  
+  
+}
 .main {
   height: 100vh;
   background: #373434;
