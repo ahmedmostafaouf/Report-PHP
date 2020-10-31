@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #373434;
+
+}
+.main {
+  height: 100vh;
+  background: #373434;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .one, .main .three {
+  flex: 10%;
+}
+
+.main .one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #565553;
+}
+
+.main .one .years {
+  background: #bdbaba47;
+  padding: 20px 80px;
+  margin-left: -109px;
+  color: #fff;
+
+}
+
+.main .one .info h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.main .one .info h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.main .one .info p {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.main .three {
+  display: flex;
+  justify-content: space-around;
+  background: #bdbaba2e;
+  padding: 10px;
+}
+
+.main .three .name {
+  color: #fff;
+}
+
+.main .three .copy {
+  color: #fff;
+}
+
+.main .two {
+  flex: 60%;
+  background-image: url(sss.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sec2 {
+  height: 100vh;
+  background: #373434;
+  padding: 50px 0 0 0;
+}
+
+.sec2 .content .head {
+  text-align: center;
+}
+
+.sec2 .content .head h1 {
+  margin-bottom: 2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sec2 .content .head span {
+  display: block;
+  background: #fff;
+  height: 5px;
+  width: 18rem;
+  margin: auto;
+}
+
+.sec2 .content .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+.sec2 .content .grid .div1 p {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  font-style: italic;
+  font-variant: small-caps;
+
+}
+.sec2 .content .grid .div1 .p1 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.sec2 .content .grid .div1 span {
+  display: block;
+  background: #fff;
+  margin: auto;
+  width: 40px;
+  height: 4px;
+}
+
+.mains .inro{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #575454;
+}
+ .os{
+  background: #565553;
+  padding: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.main .intro{
+  flex: 60%;
+  background-image: url(ssdsd.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.main .benfts{
+  flex: 60%;
+  background-image: url(555.jpg);
+  background-position: center;
+  background-size: cover;
+}
